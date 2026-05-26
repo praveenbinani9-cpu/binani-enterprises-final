@@ -25,12 +25,16 @@ export default function CreditCardForm() {
   } = useForm<CreditCardFormData>({
     resolver: zodResolver(creditCardSchema),
 
-    defaultValues: {
-      name: '',
-      email: '',
-      phone: '',
-      amount: '',
-      employmentType: '',
+  defaultValues: {
+    name: '',
+    email: '',
+    phone: '',
+    amount: '',
+    employmentType: '',
+    pinCode: '',
+    companyName: '',
+    monthlySalary: '',
+    itrAmount: '',
     },
   })
 

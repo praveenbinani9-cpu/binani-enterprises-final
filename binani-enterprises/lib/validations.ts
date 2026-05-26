@@ -6,6 +6,7 @@ export const creditCardSchema = z.object({
   phone: z.string().min(10, "Phone number required"),
   amount: z.string(),
   employmentType: z.string().min(2, "Employment type is required"),
+  pinCode: z.string().min(6, "PIN code is required").max(6),
 })
 
 export type CreditCardFormData = z.infer<typeof creditCardSchema>
