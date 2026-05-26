@@ -2,7 +2,7 @@
 
 export default function WhatsAppFloat() {
   const phone = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919000000000'
-  const message = encodeURIComponent("Hi Benigni Enterprises, I'd like to know more about your services.")
+  const message = encodeURIComponent("Hi Binani Enterprises, I'd like to know more about your services.")
 
   return (
     <a

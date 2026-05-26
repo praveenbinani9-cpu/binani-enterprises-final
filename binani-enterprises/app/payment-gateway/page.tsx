@@ -6,7 +6,7 @@ import { CheckCircle, Zap, Globe, HeadphonesIcon } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Payment Gateway Solutions',
-  description: 'Integrate PayU, Razorpay, Cashfree, and CCAvenue with expert support. Benigni Enterprises is India\'s trusted payment gateway partner.',
+  description: 'Integrate PayU, Razorpay, Cashfree, and CCAvenue with expert support. Binani Enterprises is India\'s trusted payment gateway partner.',
 }
 
 const benefits = [

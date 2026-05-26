@@ -1,4 +1,4 @@
-# Benigni Enterprises — Fintech Website
+# Binani Enterprises — Fintech Website
 
 A world-class fintech website offering payment gateway solutions, credit card applications, and personal loan services.
 
@@ -31,7 +31,7 @@ Fill in `.env.local` with your values:
 3. Enable the **Google Sheets API**
 4. Create a **Service Account** under IAM & Admin
 5. Generate a JSON key and copy the `client_email` and `private_key`
-6. Create a Google Sheet named "Benigni Leads"
+6. Create a Google Sheet named "Binani Leads"
 7. Create two tabs: "Credit Card Applications" and "Personal Loan Applications"
 8. Share the sheet with the service account email (Editor access)
 9. Copy the Sheet ID from the URL: `https://docs.google.com/spreadsheets/d/**SHEET_ID**/edit`
@@ -89,11 +89,11 @@ lib/
 
 ### Replace Placeholders
 Search for these and update:
-- `90000 00000` → your phone number
-- `919000000000` → WhatsApp number (country code + number)
-- `info@benignienterprises.com` → your email
-- `123 Business Park, Ring Road, Surat` → your address
-- `GSTIN: 24XXXXX0000X1ZX` → your GSTIN
+- `8460360600` → your phone number
+- `+918460360600` → WhatsApp number (country code + number)
+- `info@binanienterprises.in` → your email
+- `157 Aashirwad Textile Market , Saroli Road, Surat` → your address
+- `GSTIN: 24CPYPB8953C1ZL` → your GSTIN
 - Calendly URL in `.env.local`
 
 ## Deployment

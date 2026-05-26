@@ -47,7 +47,7 @@ export default function Home() {
               <span className="gradient-text">One Platform</span>
             </h2>
             <p className="font-dm text-slate-400 text-lg max-w-2xl mx-auto">
-              From payment infrastructure to personal finance — Benigni Enterprises is your trusted partner for financial growth.
+              From payment infrastructure to personal finance — Binani Enterprises is your trusted partner for financial growth.
             </p>
           </div>
 

@@ -3,7 +3,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Refund & Cancellation Policy',
-  description: 'Refund and cancellation policy for Benigni Enterprises consulting and financial services.',
+  description: 'Refund and cancellation policy for Binani Enterprises consulting and financial services.',
 }
 
 const sections = [
@@ -11,8 +11,8 @@ const sections = [
   { title: '2. No-Show Policy', content: `If you fail to attend a scheduled session without prior notice, the session will be considered completed and no refund will be issued. You may reschedule once with at least 4 hours prior notice.` },
   { title: '3. Payment Gateway Setup Fees', content: `Any one-time setup or onboarding fees charged for payment gateway integration are non-refundable once the onboarding process has commenced. This includes any documentation submitted and technical configuration initiated.` },
   { title: '4. Referral Service Fees', content: `Referral fees charged for credit card or personal loan applications are non-refundable regardless of approval outcome, as the service rendered is the facilitation and submission of the application, not the approval decision.` },
-  { title: '5. Refund Process', content: `Approved refunds will be processed within 7–10 business days to the original payment method. Bank processing times may vary. To request a refund, email refunds@benignienterprises.com with your booking/transaction details.` },
-  { title: '6. Disputes', content: `For any refund-related disputes, please contact our support team at support@benignienterprises.com. Unresolved disputes will be subject to arbitration under the laws of India, with jurisdiction in Surat, Gujarat.` },
+  { title: '5. Refund Process', content: `Approved refunds will be processed within 7–10 business days to the original payment method. Bank processing times may vary. To request a refund, email support@binanienterprises.in with your booking/transaction details.` },
+  { title: '6. Disputes', content: `For any refund-related disputes, please contact our support team at support@binanienterprises.in. Unresolved disputes will be subject to arbitration under the laws of India, with jurisdiction in Surat, Gujarat.` },
 ]
 
 export default function RefundPolicyPage() {

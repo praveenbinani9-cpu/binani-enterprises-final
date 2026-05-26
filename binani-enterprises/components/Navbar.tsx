@@ -39,7 +39,7 @@ export default function Navbar() {
               <Zap className="relative z-10 w-4 h-4 text-white" fill="white" />
             </div>
             <div className="flex flex-col leading-none">
-              <span className="font-sora font-700 text-white text-base tracking-tight">Benigni</span>
+              <span className="font-sora font-700 text-white text-base tracking-tight">Binani</span>
               <span className="font-dm text-electric-400 text-[10px] tracking-widest uppercase font-500">Enterprises</span>
             </div>
           </Link>

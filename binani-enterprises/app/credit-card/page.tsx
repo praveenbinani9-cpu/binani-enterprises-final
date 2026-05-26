@@ -5,7 +5,7 @@ import { CheckCircle, Clock, Shield, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Apply for Credit Card',
-  description: 'Apply for credit cards from top Indian banks with expert guidance. Quick processing and paperless application through Benigni Enterprises.',
+  description: 'Apply for credit cards from top Indian banks with expert guidance. Quick processing and paperless application through Binani Enterprises.',
 }
 
 const highlights = [
@@ -57,7 +57,7 @@ export default function CreditCardPage() {
         {/* Disclaimer */}
         <div className="max-w-2xl mx-auto px-4 pb-16 text-center">
           <p className="font-dm text-slate-600 text-xs leading-relaxed">
-            Benigni Enterprises acts as a referral / DSA partner. Credit card approvals are subject to the respective bank&apos;s eligibility criteria and policies. 
+            Binani Enterprises acts as a referral / DSA partner. Credit card approvals are subject to the respective bank&apos;s eligibility criteria and policies. 
             We are not a bank or NBFC. By submitting this form, you agree to be contacted by our team.
           </p>
         </div>

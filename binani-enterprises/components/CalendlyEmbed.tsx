@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { Calendar, Clock, Video } from 'lucide-react'
 
 export default function CalendlyEmbed() {
-  const calendlyUrl = process.env.NEXT_PUBLIC_CALENDLY_URL || 'https://calendly.com/benigni-enterprises/30min'
+  const calendlyUrl = process.env.NEXT_PUBLIC_CALENDLY_URL || 'https://calendly.com/binani-enterprises/30min'
 
   useEffect(() => {
     const script = document.createElement('script')

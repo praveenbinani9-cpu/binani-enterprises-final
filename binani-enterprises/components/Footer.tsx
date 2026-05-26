@@ -63,7 +63,7 @@ export default function Footer() {
                 <Zap className="relative z-10 w-4 h-4 text-white" fill="white" />
               </div>
               <div className="flex flex-col leading-none">
-                <span className="font-sora font-700 text-white text-base">Benigni</span>
+                <span className="font-sora font-700 text-white text-base">Binani</span>
                 <span className="font-dm text-electric-400 text-[10px] tracking-widest uppercase">Enterprises</span>
               </div>
             </Link>
@@ -76,24 +76,24 @@ export default function Footer() {
               <div className="flex items-start gap-2.5 text-slate-500">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-electric-600/60" />
                 <span className="font-dm text-xs leading-relaxed">
-                  123 Business Park, Ring Road,<br />Surat, Gujarat – 395002
+                  157 Aashirwad textile Market, Saroli Road,<br />Surat, Gujarat - 395010
                 </span>
               </div>
               <div className="flex items-center gap-2.5 text-slate-500">
                 <Mail className="w-4 h-4 shrink-0 text-electric-600/60" />
-                <a href="mailto:info@benignienterprises.com" className="font-dm text-xs hover:text-electric-400 transition-colors">
-                  info@benignienterprises.com
+                <a href="mailto:info@binanienterprises.in" className="font-dm text-xs hover:text-electric-400 transition-colors">
+                  info@binanienterprises.in
                 </a>
               </div>
               <div className="flex items-center gap-2.5 text-slate-500">
                 <Phone className="w-4 h-4 shrink-0 text-electric-600/60" />
                 <a href="tel:+919000000000" className="font-dm text-xs hover:text-electric-400 transition-colors">
-                  +91 90000 00000
+                  +91 8460360600
                 </a>
               </div>
               <div className="flex items-center gap-2.5 text-slate-500">
                 <Building2 className="w-4 h-4 shrink-0 text-electric-600/60" />
-                <span className="font-dm text-xs">GSTIN: 24XXXXX0000X1ZX</span>
+                <span className="font-dm text-xs">GSTIN: 24CPYPB8953C1ZL</span>
               </div>
             </div>
 
@@ -136,7 +136,7 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-dm text-slate-600 text-xs text-center sm:text-left">
-            © 2025 Benigni Enterprises. All rights reserved.
+            © 2025 Binani Enterprises. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             {['RBI Guideline Compliant', 'SSL Secured', 'DPDP Act 2023'].map((tag) => (

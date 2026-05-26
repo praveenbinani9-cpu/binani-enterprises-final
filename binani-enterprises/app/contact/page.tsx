@@ -4,24 +4,24 @@ import { MapPin, Mail, Phone, Clock, Building2, MessageSquare } from 'lucide-rea
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: 'Get in touch with Benigni Enterprises for payment gateway, credit card, and personal loan inquiries.',
+  description: 'Get in touch with Binani Enterprises for payment gateway, credit card, and personal loan inquiries.',
 }
 
 const contactDetails = [
   {
     icon: MapPin,
     title: 'Office Address',
-    lines: ['123 Business Park, Ring Road', 'Surat, Gujarat – 395002', 'India'],
+    lines: ['157 Aashirwad Textile Market Saroli Road', 'Surat, Gujarat – 395010', 'India'],
   },
   {
     icon: Phone,
     title: 'Phone',
-    lines: ['+91 90000 00000', 'Mon–Sat, 10 AM – 7 PM IST'],
+    lines: ['+91 8460360600', 'Mon–Sat, 10 AM – 7 PM IST'],
   },
   {
     icon: Mail,
     title: 'Email',
-    lines: ['info@benignienterprises.com', 'support@benignienterprises.com'],
+    lines: ['info@binanienterprises.in', 'support@binanienterprises.in'],
   },
   {
     icon: Clock,
@@ -31,12 +31,12 @@ const contactDetails = [
   {
     icon: Building2,
     title: 'Registration',
-    lines: ['GSTIN: 24XXXXX0000X1ZX', 'MSME Udyam: UDYAM-GJ-XX-XXXXXXX'],
+    lines: ['GSTIN: 24CPYPB8953C1ZL', 'MSME Udyam: UDYAM-GJ-22-0444736'],
   },
   {
     icon: MessageSquare,
     title: 'WhatsApp',
-    lines: ['+91 90000 00000', 'Quick response during business hours'],
+    lines: ['+91 8460360600', 'Quick response during business hours'],
   },
 ]
 
@@ -75,8 +75,8 @@ export default function ContactPage() {
             <div className="w-full h-full flex items-center justify-center" style={{ background: 'rgba(255,255,255,0.02)' }}>
               <div className="text-center">
                 <MapPin className="w-10 h-10 text-electric-600/40 mx-auto mb-3" />
-                <p className="font-sora font-600 text-slate-600 text-sm">123 Business Park, Ring Road</p>
-                <p className="font-dm text-slate-700 text-xs mt-1">Surat, Gujarat 395002</p>
+                <p className="font-sora font-600 text-slate-600 text-sm">157 Aashirwad Textile Market Saroli Road</p>
+                <p className="font-dm text-slate-700 text-xs mt-1">Surat, Gujarat 395010</p>
                 <a
                   href="https://maps.google.com/?q=Surat+Gujarat+India"
                   target="_blank"

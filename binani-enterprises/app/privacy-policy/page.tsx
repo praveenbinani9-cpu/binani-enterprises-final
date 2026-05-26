@@ -3,13 +3,13 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy Policy of Benigni Enterprises — how we collect, use, and protect your personal data.',
+  description: 'Privacy Policy of Binani Enterprises — how we collect, use, and protect your personal data.',
 }
 
 const sections = [
   {
     title: '1. Introduction',
-    content: `Benigni Enterprises ("we", "our", or "us") is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our financial services, in accordance with the Information Technology Act, 2000 and the Digital Personal Data Protection Act, 2023 (DPDP Act).`,
+    content: `Binani Enterprises ("we", "our", or "us") is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our financial services, in accordance with the Information Technology Act, 2000 and the Digital Personal Data Protection Act, 2023 (DPDP Act).`,
   },
   {
     title: '2. Information We Collect',
@@ -29,7 +29,7 @@ const sections = [
   },
   {
     title: '6. Your Rights (DPDP Act 2023)',
-    content: `You have the right to: access your data, request correction of inaccurate data, request erasure (subject to legal obligations), lodge a grievance with our Data Protection Officer, and nominate a representative. Contact: privacy@benignienterprises.com`,
+    content: `You have the right to: access your data, request correction of inaccurate data, request erasure (subject to legal obligations), lodge a grievance with our Data Protection Officer, and nominate a representative. Contact: privacy@binanienterprises.in`,
   },
   {
     title: '7. Data Security',
@@ -41,7 +41,7 @@ const sections = [
   },
   {
     title: '9. Grievance Officer',
-    content: `For privacy-related queries, contact our Grievance Officer at: privacy@benignienterprises.com | 123 Business Park, Ring Road, Surat, Gujarat 395002 | +91 90000 00000. We respond within 30 days as required by law.`,
+    content: `For privacy-related queries, contact our Grievance Officer at: privacy@binanienterprises.in | 157 Aashirwad Textile Market, Saroli Road, Surat, Gujarat 395010 | +91 8460360600. We respond within 30 days as required by law.`,
   },
 ]
 

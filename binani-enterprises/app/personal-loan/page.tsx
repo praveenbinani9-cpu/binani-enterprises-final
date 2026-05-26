@@ -5,7 +5,7 @@ import { Banknote, Clock, CheckCircle, TrendingDown } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Apply for Personal Loan',
-  description: 'Apply for personal loans from ₹50,000 to ₹50L+ with competitive interest rates. Quick approval through Benigni Enterprises.',
+  description: 'Apply for personal loans from ₹50,000 to ₹50L+ with competitive interest rates. Quick approval through Binani Enterprises.',
 }
 
 const highlights = [
@@ -54,7 +54,7 @@ export default function PersonalLoanPage() {
 
         <div className="max-w-2xl mx-auto px-4 pb-16 text-center">
           <p className="font-dm text-slate-600 text-xs leading-relaxed">
-            Benigni Enterprises acts as a referral / DSA partner. Loan approvals are subject to the respective lender&apos;s eligibility criteria. 
+            Binani Enterprises acts as a referral / DSA partner. Loan approvals are subject to the respective lender&apos;s eligibility criteria. 
             Interest rates and terms vary by lender and applicant profile. We are not a bank or NBFC.
           </p>
         </div>

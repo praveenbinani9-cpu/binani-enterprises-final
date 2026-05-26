@@ -224,7 +224,7 @@ export default function PersonalLoanForm() {
               <a href="/privacy-policy" className="text-electric-400 hover:underline">Privacy Policy</a>{' '}
               and{' '}
               <a href="/terms" className="text-electric-400 hover:underline">Terms & Conditions</a>.
-              I consent to Benigni Enterprises contacting me regarding my loan application.
+              I consent to Binani Enterprises contacting me regarding my loan application.
             </span>
           </label>
           {errors.consent && <p className="text-red-400 text-xs">{errors.consent.message}</p>}
