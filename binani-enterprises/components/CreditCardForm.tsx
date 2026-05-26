@@ -186,12 +186,12 @@ export default function CreditCardForm() {
                 Last Filed ITR Amount (₹) <span className="text-red-400">*</span>
               </label>
               <input
-                {...register('annualITR')}
+                {...register('itrAmount')}
                 type="number"
                 placeholder="Annual income as per ITR"
                 className="form-input w-full rounded-xl px-4 py-3 text-sm"
               />
-              {errors.annualITR && <p className="text-red-400 text-xs mt-1.5">{errors.annualITR.message}</p>}
+              {errors.itrAmount && <p className="text-red-400 text-xs mt-1.5">{errors.itrAmount.message}</p>}
             </div>
           )}
 
