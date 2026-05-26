@@ -28,7 +28,7 @@ export default function CreditCardForm() {
     defaultValues: {
       name: '',
       email: '',
-      mobile: '',
+      phone: '',
       amount: '',
       employmentType: '',
     },
@@ -95,13 +95,13 @@ export default function CreditCardForm() {
                 Mobile Number <span className="text-red-400">*</span>
               </label>
               <input
-                {...register('mobile')}
+                {...register('phone')}
                 type="tel"
                 placeholder="10-digit mobile"
                 maxLength={10}
                 className="form-input w-full rounded-xl px-4 py-3 text-sm"
               />
-              {errors.mobile && <p className="text-red-400 text-xs mt-1.5">{errors.mobile.message}</p>}
+              {errors.phone && <p className="text-red-400 text-xs mt-1.5">{errors.phone.message}</p>}
             </div>
             <div>
               <label className="block font-sora font-600 text-slate-300 text-sm mb-2">
