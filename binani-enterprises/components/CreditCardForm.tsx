@@ -24,6 +24,14 @@ export default function CreditCardForm() {
     formState: { errors },
   } = useForm<CreditCardFormData>({
     resolver: zodResolver(creditCardSchema),
+
+    defaultValues: {
+      name: '',
+      email: '',
+      mobile: '',
+      amount: '',
+      employmentType: '',
+    },
   })
 
   const empType = watch('employmentType')
@@ -72,12 +80,12 @@ export default function CreditCardForm() {
               Full Name <span className="text-red-400">*</span>
             </label>
             <input
-              {...register('fullName')}
+              {...register('name')}
               type="text"
               placeholder="As per Aadhaar / PAN"
               className="form-input w-full rounded-xl px-4 py-3 text-sm"
             />
-            {errors.fullName && <p className="text-red-400 text-xs mt-1.5">{errors.fullName.message}</p>}
+            {errors.name && <p className="text-red-400 text-xs mt-1.5">{errors.name.message}</p>}
           </div>
 
           {/* Mobile + Email */}
