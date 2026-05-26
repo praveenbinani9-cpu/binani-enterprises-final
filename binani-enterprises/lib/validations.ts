@@ -8,3 +8,4 @@ export const creditCardSchema = z.object({
 })
 
 export type CreditCardFormData = z.infer<typeof creditCardSchema>
+export const personalLoanSchema = creditCardSchema
