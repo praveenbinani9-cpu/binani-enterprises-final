@@ -32,7 +32,6 @@ export default function CreditCardForm() {
     amount: '',
     employmentType: '',
     pinCode: '',
-    companyName: '',
     monthlySalary: '',
     itrAmount: '',
     },
