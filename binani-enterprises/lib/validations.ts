@@ -20,6 +20,8 @@ export const creditCardSchema = z.object({
   monthlySalary: z.string().optional(),
 
   itrAmount: z.string().optional(),
+
+  consent: z.boolean(),
 })
 
 export type CreditCardFormData = z.infer<typeof creditCardSchema>

@@ -34,6 +34,7 @@ export default function CreditCardForm() {
     pinCode: '',
     monthlySalary: '',
     itrAmount: '',
+    consent: false,
     },
   })
 
