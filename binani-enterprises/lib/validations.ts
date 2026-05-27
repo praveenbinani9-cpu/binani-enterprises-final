@@ -27,3 +27,6 @@ export const creditCardSchema = z.object({
 export type CreditCardFormData = z.infer<typeof creditCardSchema>
 
 export const personalLoanSchema = creditCardSchema
+
+export type PersonalLoanFormData =
+  z.infer<typeof personalLoanSchema>
