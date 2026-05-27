@@ -12,7 +12,7 @@ const employmentOptions = [
   { value: 'self_employed_professional', label: 'Self Employed Professional' },
 ]
 
-const loanAmounts = [
+const amount = [
   '₹50,000', '₹1,00,000', '₹2,00,000', '₹5,00,000',
   '₹10,00,000', '₹20,00,000', '₹50,00,000+',
 ]
@@ -77,28 +77,28 @@ export default function PersonalLoanForm() {
               Full Name <span className="text-red-400">*</span>
             </label>
             <input
-              {...register('fullName')}
+              {...register('name')}
               type="text"
               placeholder="As per Aadhaar / PAN"
               className="form-input w-full rounded-xl px-4 py-3 text-sm"
             />
-            {errors.fullName && <p className="text-red-400 text-xs mt-1.5">{errors.fullName.message}</p>}
+            {errors.name && <p className="text-red-400 text-xs mt-1.5">{errors.name.message}</p>}
           </div>
 
-          {/* Mobile + Email */}
+          {/* phone + Email */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             <div>
               <label className="block font-sora font-600 text-slate-300 text-sm mb-2">
-                Mobile Number <span className="text-red-400">*</span>
+                phone Number <span className="text-red-400">*</span>
               </label>
               <input
-                {...register('mobile')}
+                {...register('phone')}
                 type="tel"
-                placeholder="10-digit mobile"
+                placeholder="10-digit phone number"
                 maxLength={10}
                 className="form-input w-full rounded-xl px-4 py-3 text-sm"
               />
-              {errors.mobile && <p className="text-red-400 text-xs mt-1.5">{errors.mobile.message}</p>}
+              {errors.phone && <p className="text-red-400 text-xs mt-1.5">{errors.phone.message}</p>}
             </div>
             <div>
               <label className="block font-sora font-600 text-slate-300 text-sm mb-2">
@@ -179,12 +179,12 @@ export default function PersonalLoanForm() {
                 Last Filed ITR Amount (₹) <span className="text-red-400">*</span>
               </label>
               <input
-                {...register('annualITR')}
+                {...register('itrAmount')}
                 type="number"
                 placeholder="Annual income as per ITR"
                 className="form-input w-full rounded-xl px-4 py-3 text-sm"
               />
-              {errors.annualITR && <p className="text-red-400 text-xs mt-1.5">{errors.annualITR.message}</p>}
+              {errors.itrAmount && <p className="text-red-400 text-xs mt-1.5">{errors.itrAmount.message}</p>}
             </div>
           )}
 
@@ -195,11 +195,11 @@ export default function PersonalLoanForm() {
             </label>
             <div className="relative">
               <select
-                {...register('loanAmount')}
+                {...register('amount')}
                 className="form-input w-full rounded-xl px-4 py-3 text-sm appearance-none cursor-pointer"
               >
                 <option value="">Select loan amount</option>
-                {loanAmounts.map((amt) => (
+                {amount.map((amt) => (
                   <option key={amt} value={amt}>{amt}</option>
                 ))}
               </select>
@@ -209,7 +209,7 @@ export default function PersonalLoanForm() {
                 </svg>
               </div>
             </div>
-            {errors.loanAmount && <p className="text-red-400 text-xs mt-1.5">{errors.loanAmount.message}</p>}
+            {errors.amount && <p className="text-red-400 text-xs mt-1.5">{errors.amount.message}</p>}
           </div>
 
           {/* Consent */}
