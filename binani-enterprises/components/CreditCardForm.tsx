@@ -89,7 +89,7 @@ export default function CreditCardForm() {
               placeholder="As per Aadhaar / PAN"
               className="form-input w-full rounded-xl px-4 py-3 text-sm"
             />
-            {errors.name && <p className="text-red-400 text-xs mt-1.5">{errors.name.message}</p>}
+            {errors.fullName && <p className="text-red-400 text-xs mt-1.5">{errors.fullName.message}</p>}
           </div>
 
           {/* Mobile + Email */}
@@ -105,7 +105,7 @@ export default function CreditCardForm() {
                 maxLength={10}
                 className="form-input w-full rounded-xl px-4 py-3 text-sm"
               />
-              {errors.phone && <p className="text-red-400 text-xs mt-1.5">{errors.phone.message}</p>}
+              {errors.mobile && <p className="text-red-400 text-xs mt-1.5">{errors.mobile.message}</p>}
             </div>
             <div>
               <label className="block font-sora font-600 text-slate-300 text-sm mb-2">
@@ -192,7 +192,7 @@ export default function CreditCardForm() {
                 placeholder="Annual income as per ITR"
                 className="form-input w-full rounded-xl px-4 py-3 text-sm"
               />
-              {errors.itrAmount && <p className="text-red-400 text-xs mt-1.5">{errors.itrAmount.message}</p>}
+              {errors.annualITR && <p className="text-red-400 text-xs mt-1.5">{errors.annualITR.message}</p>}
             </div>
           )}
 
