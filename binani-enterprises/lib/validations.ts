@@ -7,7 +7,7 @@ export const creditCardSchema = z.object({
 
   mobile: z.string().min(10, "Phone number required"),
 
-  amount: z.string(),
+  loanAmount: z.string(),
 
   employmentType: z.string().min(2, "Employment type is required"),
 
