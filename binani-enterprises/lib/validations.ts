@@ -1,11 +1,11 @@
 import { z } from "zod"
 
 export const creditCardSchema = z.object({
-  name: z.string().min(2, "Name is required"),
+  fullname: z.string().min(2, "Name is required"),
 
   email: z.string().email("Invalid email"),
 
-  phone: z.string().min(10, "Phone number required"),
+  mobile: z.string().min(10, "Phone number required"),
 
   amount: z.string(),
 
@@ -19,7 +19,7 @@ export const creditCardSchema = z.object({
 
   monthlySalary: z.string().optional(),
 
-  itrAmount: z.string().optional(),
+  annualITR: z.string().optional(),
 
   consent: z.boolean(),
 })
