@@ -12,7 +12,7 @@ const employmentOptions = [
   { value: 'self_employed_professional', label: 'Self Employed Professional' },
 ]
 
-const amount = [
+const loanAmount = [
   '₹50,000', '₹1,00,000', '₹2,00,000', '₹5,00,000',
   '₹10,00,000', '₹20,00,000', '₹50,00,000+',
 ]
@@ -82,7 +82,7 @@ export default function PersonalLoanForm() {
               placeholder="As per Aadhaar / PAN"
               className="form-input w-full rounded-xl px-4 py-3 text-sm"
             />
-            {errors.name && <p className="text-red-400 text-xs mt-1.5">{errors.name.message}</p>}
+            {errors.fullName && <p className="text-red-400 text-xs mt-1.5">{errors.fullName.message}</p>}
           </div>
 
           {/* phone + Email */}
@@ -98,7 +98,7 @@ export default function PersonalLoanForm() {
                 maxLength={10}
                 className="form-input w-full rounded-xl px-4 py-3 text-sm"
               />
-              {errors.phone && <p className="text-red-400 text-xs mt-1.5">{errors.phone.message}</p>}
+              {errors.mobile && <p className="text-red-400 text-xs mt-1.5">{errors.mobile.message}</p>}
             </div>
             <div>
               <label className="block font-sora font-600 text-slate-300 text-sm mb-2">
@@ -184,7 +184,7 @@ export default function PersonalLoanForm() {
                 placeholder="Annual income as per ITR"
                 className="form-input w-full rounded-xl px-4 py-3 text-sm"
               />
-              {errors.itrAmount && <p className="text-red-400 text-xs mt-1.5">{errors.itrAmount.message}</p>}
+              {errors.annualITR && <p className="text-red-400 text-xs mt-1.5">{errors.annualITR.message}</p>}
             </div>
           )}
 
@@ -209,7 +209,7 @@ export default function PersonalLoanForm() {
                 </svg>
               </div>
             </div>
-            {errors.amount && <p className="text-red-400 text-xs mt-1.5">{errors.amount.message}</p>}
+            {errors.loanAmount && <p className="text-red-400 text-xs mt-1.5">{errors.loanAmount.message}</p>}
           </div>
 
           {/* Consent */}
