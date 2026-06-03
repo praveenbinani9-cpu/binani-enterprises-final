@@ -1,7 +1,7 @@
 import { z } from "zod"
 
 export const creditCardSchema = z.object({
-  fullname: z.string().min(2, "Name is required"),
+  fullName: z.string().min(2, "Name is required"),
 
   email: z.string().email("Invalid email"),
 
