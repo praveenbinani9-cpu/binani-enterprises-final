@@ -26,14 +26,14 @@ export default function CreditCardForm() {
     resolver: zodResolver(creditCardSchema),
 
   defaultValues: {
-    name: '',
+    fullName: '',
     email: '',
-    phone: '',
-    amount: '',
+    mobile: '',
+    loanAmount: '',
     employmentType: '',
     pinCode: '',
     monthlySalary: '',
-    itrAmount: '',
+    annualITR: '',
     consent: false,
     },
   })
@@ -84,7 +84,7 @@ export default function CreditCardForm() {
               Full Name <span className="text-red-400">*</span>
             </label>
             <input
-              {...register('name')}
+              {...register('fullname')}
               type="text"
               placeholder="As per Aadhaar / PAN"
               className="form-input w-full rounded-xl px-4 py-3 text-sm"
@@ -99,7 +99,7 @@ export default function CreditCardForm() {
                 Mobile Number <span className="text-red-400">*</span>
               </label>
               <input
-                {...register('phone')}
+                {...register('mobile')}
                 type="tel"
                 placeholder="10-digit mobile"
                 maxLength={10}
@@ -187,7 +187,7 @@ export default function CreditCardForm() {
                 Last Filed ITR Amount (₹) <span className="text-red-400">*</span>
               </label>
               <input
-                {...register('itrAmount')}
+                {...register('annualitr')}
                 type="number"
                 placeholder="Annual income as per ITR"
                 className="form-input w-full rounded-xl px-4 py-3 text-sm"
