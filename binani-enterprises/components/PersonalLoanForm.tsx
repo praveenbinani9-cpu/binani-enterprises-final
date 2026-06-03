@@ -199,7 +199,7 @@ export default function PersonalLoanForm() {
                 className="form-input w-full rounded-xl px-4 py-3 text-sm appearance-none cursor-pointer"
               >
                 <option value="">Select loan amount</option>
-                {amount.map((amt) => (
+                {loanAmount.map((amt) => (
                   <option key={amt} value={amt}>{amt}</option>
                 ))}
               </select>
