@@ -77,7 +77,7 @@ export default function PersonalLoanForm() {
               Full Name <span className="text-red-400">*</span>
             </label>
             <input
-              {...register('name')}
+              {...register('fullname')}
               type="text"
               placeholder="As per Aadhaar / PAN"
               className="form-input w-full rounded-xl px-4 py-3 text-sm"
@@ -92,7 +92,7 @@ export default function PersonalLoanForm() {
                 phone Number <span className="text-red-400">*</span>
               </label>
               <input
-                {...register('phone')}
+                {...register('mobile')}
                 type="tel"
                 placeholder="10-digit phone number"
                 maxLength={10}
@@ -179,7 +179,7 @@ export default function PersonalLoanForm() {
                 Last Filed ITR Amount (₹) <span className="text-red-400">*</span>
               </label>
               <input
-                {...register('itrAmount')}
+                {...register('annualITR')}
                 type="number"
                 placeholder="Annual income as per ITR"
                 className="form-input w-full rounded-xl px-4 py-3 text-sm"
@@ -195,7 +195,7 @@ export default function PersonalLoanForm() {
             </label>
             <div className="relative">
               <select
-                {...register('amount')}
+                {...register('loanAmount')}
                 className="form-input w-full rounded-xl px-4 py-3 text-sm appearance-none cursor-pointer"
               >
                 <option value="">Select loan amount</option>
