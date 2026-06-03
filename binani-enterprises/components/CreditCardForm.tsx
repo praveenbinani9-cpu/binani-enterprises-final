@@ -84,7 +84,7 @@ export default function CreditCardForm() {
               Full Name <span className="text-red-400">*</span>
             </label>
             <input
-              {...register('fullname')}
+              {...register('fullName')}
               type="text"
               placeholder="As per Aadhaar / PAN"
               className="form-input w-full rounded-xl px-4 py-3 text-sm"
