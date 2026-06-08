@@ -44,11 +44,6 @@ export default function Navbar() {
                 priority
               />
           </Link>
-            <div className="flex flex-col leading-none">
-              <span className="font-sora font-700 text-white text-base tracking-tight">Binani</span>
-              <span className="font-dm text-electric-400 text-[10px] tracking-widest uppercase font-500">Enterprises</span>
-            </div>
-          </Link>
 
           {/* Desktop nav */}
           <div className="hidden lg:flex items-center gap-1">
