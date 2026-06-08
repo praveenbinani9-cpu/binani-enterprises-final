@@ -2,7 +2,8 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Menu, X, Zap } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
+import Image from 'next/image'
 
 const navLinks = [
   { label: 'Payment Gateway', href: '/payment-gateway' },
@@ -33,11 +34,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="relative w-9 h-9 flex items-center justify-center">
-              <div className="absolute inset-0 bg-electric-600 rounded-lg rotate-45 group-hover:rotate-[135deg] transition-transform duration-500" />
-              <Zap className="relative z-10 w-4 h-4 text-white" fill="white" />
-            </div>
+          <Link href="/">
+             <Image
+                src="/binani_enterprises_logo.png"
+                alt="Binani Enterprises"
+                width={160}
+                height={48}
+                className="h-10 w-auto"
+                priority
+              />
+          </Link>
             <div className="flex flex-col leading-none">
               <span className="font-sora font-700 text-white text-base tracking-tight">Binani</span>
               <span className="font-dm text-electric-400 text-[10px] tracking-widest uppercase font-500">Enterprises</span>
