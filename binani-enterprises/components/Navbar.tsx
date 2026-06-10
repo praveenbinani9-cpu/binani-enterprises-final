@@ -8,7 +8,6 @@ import Image from 'next/image'
 const navLinks = [
   { label: 'Payment Gateway', href: '/payment-gateway' },
   { label: 'Credit Card', href: '/credit-card' },
-  { label: 'Personal Loan', href: '/personal-loan' },
   { label: 'Contact', href: '/contact' },
 ]
 
