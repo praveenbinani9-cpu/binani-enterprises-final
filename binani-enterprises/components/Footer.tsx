@@ -10,7 +10,6 @@ const footerLinks = {
   Services: [
     { label: 'Payment Gateway', href: '/payment-gateway' },
     { label: 'Credit Card', href: '/credit-card' },
-    { label: 'Personal Loan', href: '/personal-loan' },
     { label: 'Free Consulting', href: '/payment-gateway#consulting' },
   ],
   Legal: [
