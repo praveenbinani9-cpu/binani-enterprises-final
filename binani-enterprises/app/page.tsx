@@ -21,14 +21,6 @@ const services = [
     color: 'blue',
     cta: 'Apply Now',
   },
-  {
-    icon: Banknote,
-    title: 'Personal Loan',
-    description: 'Get personal loans with competitive interest rates. Minimal documentation, fast approval, amounts from ₹50,000 to ₹50L+.',
-    href: '/personal-loan',
-    color: 'gold',
-    cta: 'Apply Now',
-  },
 ]
 
 export default function Home() {
