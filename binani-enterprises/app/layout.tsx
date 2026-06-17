@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: 'Binani Enterprises — Financial Solutions for Modern India',
     template: '%s | Binani Enterprises',
   },
-  description: 'Payment gateway integration, credit card applications, and personal loans — all in one place. Trusted by 500+ businesses across India.',
+  description: 'Payment gateway integration, credit card applications, and many more — all in one place. Trusted by 500+ businesses across India.',
   keywords: ['payment gateway India', 'credit card apply online', 'personal loan apply', 'Binani Enterprises', 'PayU partner', 'Razorpay integration'],
   authors: [{ name: 'Binani Enterprises' }],
   openGraph: {
