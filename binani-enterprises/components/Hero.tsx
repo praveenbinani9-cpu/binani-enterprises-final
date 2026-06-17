@@ -59,7 +59,7 @@ export default function Hero() {
           </h1>
 
           <p className="font-dm text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed animate-slide-up" style={{ animationDelay: '0.15s' }}>
-            Payment gateways, credit cards, and personal loans — all in one place.
+            Payment gateways, credit cards, and many more — all in one place.
             Empowering businesses and individuals with world-class financial infrastructure.
           </p>
 
